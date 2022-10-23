@@ -8,8 +8,16 @@
 }
 
 body {
-    background-image: url("/images/svg/wallpaper.svg");
-    background-repeat: no-repeat;
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+
+a {
+    color: rgb(238,174,202);
+    text-decoration: none;
 }
 
 /* Fonts Import */
@@ -138,7 +146,7 @@ body {
 }
 
 #section4 #container {
-    width: 821px;
+    width: 840px;
     margin: auto;
 }
 
@@ -157,7 +165,7 @@ body {
 }
 
 #section4 #container form input {
-    width: 781px;
+    width: 780px;
     height: 120px;
     background: #181818;
     border-radius: 20px;
